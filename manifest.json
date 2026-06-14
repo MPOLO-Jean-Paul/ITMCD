@@ -1,0 +1,26 @@
+{
+  "name": "ITMCD Gestion Scolaire",
+  "short_name": "ITMCD",
+  "description": "Application de gestion scolaire ITMCD",
+  "id": "/",
+  "start_url": "login.php",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#eef3fb",
+  "theme_color": "#0f6bff",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "images/LOGO.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/LOGO.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

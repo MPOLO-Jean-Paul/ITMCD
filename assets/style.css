@@ -1,0 +1,99 @@
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #64748b;
+    --success-color: #10b981;
+    --danger-color: #ef4444;
+    --warning-color: #f59e0b;
+    --dark-bg: #0f172a;
+    --light-bg: #f8fafc;
+    --card-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+body {
+    background-color: var(--light-bg);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #1e293b;
+}
+
+/* Navbar Style */
+.navbar {
+    background-color: var(--dark-bg) !important;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.navbar-brand {
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+}
+
+.card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+
+.shadow-custom {
+    box-shadow: var(--card-shadow);
+}
+
+/* Table Design */
+.table {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #f1f5f9;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    color: var(--secondary-color);
+    border: none;
+    padding: 15px;
+}
+
+.table tbody td {
+    padding: 15px;
+    vertical-align: middle;
+}
+
+/* Inputs & Buttons */
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    padding: 0.6rem 1rem;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    border-color: var(--primary-color);
+}
+
+.btn {
+    border-radius: 8px;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    transition: all 0.2s;
+}
+
+.btn-primary { background-color: var(--primary-color); }
+.btn-success { background-color: var(--success-color); }
+
+/* Badges */
+.badge-code {
+    font-family: 'Fira Code', 'Courier New', monospace;
+    background: #eff6ff;
+    color: var(--primary-color);
+    border: 1px solid #dbeafe;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
